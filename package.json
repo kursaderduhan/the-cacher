@@ -1,0 +1,43 @@
+{
+  "name": "the-cacher",
+  "version": "0.0.1",
+  "description": "Advanced in-memory cache implementation with TTL support, multiple storage options, and TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "cache",
+    "memory-cache",
+    "ttl",
+    "memory",
+    "redis",
+    "typescript"
+  ],
+  "author": "Kürşad Erduhan",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.0.0",
+    "@types/node": "^18.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
+    "typescript": "^4.9.0"
+  },
+  "dependencies": {
+    "ioredis": "^5.0.0"
+  },
+  "peerDependencies": {
+    "ioredis": "^5.0.0"
+  },
+  "homepage": "https://github.com/kursaderduhan/the-cacher#readme"
+}

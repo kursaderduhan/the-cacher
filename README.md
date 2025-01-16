@@ -1,4 +1,3 @@
-```md
 # The Cacher
 
 ![npm](https://img.shields.io/npm/v/the-cacher)
@@ -38,4 +37,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 💖 Support
 
 If you find this package useful, please consider giving it a star on GitHub! Your support helps make this project better.
-```

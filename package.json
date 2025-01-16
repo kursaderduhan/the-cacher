@@ -1,6 +1,6 @@
 {
   "name": "the-cacher",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Advanced in-memory cache implementation with TTL support, multiple storage options, and TypeScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

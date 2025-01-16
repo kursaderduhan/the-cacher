@@ -100,10 +100,12 @@ await cache.batch()
 
 ## Simply use the default configuration:
 
-`// This uses only in-memory storage
+```typescript
+// This uses only in-memory storage
 const cache = new CacheManager({
-maxSize: 1000 // Optional: set maximum items
-});`
+  maxSize: 1000, // Optional: set maximum items
+});
+```
 
 # Memory Storage vs Redis Comparison
 
